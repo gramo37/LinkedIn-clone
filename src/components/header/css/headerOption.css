@@ -1,0 +1,25 @@
+.HeaderOptionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0px 10px;
+    color: grey;
+    cursor: pointer;
+}
+
+.HeaderOptionContainer:hover{
+    color: black;
+}
+
+/* .HeaderOptionIcon{
+    
+} */
+
+.HeaderOptionContainer h6 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}

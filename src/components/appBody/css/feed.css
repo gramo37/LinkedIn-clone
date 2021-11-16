@@ -1,0 +1,66 @@
+.feed{
+    margin: 0px 20px;
+    flex: 0.6;
+}
+
+.feed-top{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feed-input{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* padding-left: 15px; */
+    margin-bottom: 10px;
+    border-radius: 35px;
+}
+
+.feed-search{
+    display: flex;
+    margin: 5px 10px;
+    flex: 1;
+}
+
+.feed-search > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed-search > button{
+    display: none;
+}
+
+.feed-icons{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedOptionContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding: 10px
+    
+}
+
+.feedOptionContainer:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.feedOptionContainer > h4{
+    font-size: 12px;
+    margin-left: 8px;
+    color: gray;
+}
